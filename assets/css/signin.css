@@ -1,0 +1,171 @@
+body {
+    background: #F3F1D8 url("../img/1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'TR Century Gothic', Arial, sans-serif !important;
+}
+@font-face
+{
+  font-family: 'TR Century Gothic';
+  src: url('TR Century Gothic.ttf');
+}
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+}
+h1 { 
+    font-size: 2.2em; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1); 
+} 
+h2 { 
+    font-size: 2.0em;   
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);   
+} 
+h3 { 
+    font-size: 1.8em; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1); 
+} 
+h4 { 
+    font-size: 1.6em; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);     
+} 
+h5 { 
+    font-size: 1.4em;     
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1); 
+} 
+p { 
+    font-size: 1.2em;    
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1); 
+}
+a{
+  color: #eee;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+#body-wrapper{
+  margin: 40px auto 60px auto;
+}
+
+.logo-wrapper{
+  margin-top: 50px;
+}
+
+.logo{
+  width: 100%;
+
+}
+
+.title{
+  margin: 35px auto auto auto;
+}
+
+.title p{
+  font-weight: bold;
+  color: #111;
+  font-size: 22px;
+    margin-bottom: -10px;
+}
+
+.title h3{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navbar-toggle{
+  border:1px solid #ddd;
+}
+
+.navbar-toggle .icon-bar{
+  border:1px solid #ddd;
+}
+
+.navigation .divider{
+  border-left:1px solid #f2f2f2;
+  height: 50px;
+}
+
+.navigation li a:hover{
+  background: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cust-form{
+  max-width: 350px;
+  padding: 19px 29px 29px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background: url("../img/pixel-60fff.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  margin-bottom: 20px;
+}
+
+.divider-horizontal{
+  border:1px solid #545454;
+}
+
+.login-type{
+  max-width: 350px;
+  padding: 19px 29px 29px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background: url("../img/pixel-60fff.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+
+#signup-modal .modal-content{
+  border-radius: 10px;
+}
+
+#signup-modal .modal-body{
+  background: #F3F1D8 url("../img/content-bg.png");
+  box-shadow: 0px -2px 1px 1px #222 inset;
+  border-radius: 0px 0px 8px 8px;
+  padding: 45px;
+  height: 460px;
+}
+
+
+#signup-modal .modal-header{
+  box-shadow: 0px 0px 1px 1px #222 inset;
+  background: #B91919;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+
+#signup-modal .modal-header h4{
+  color:#fff;
+}
+
+.alert{
+  padding: 10px;
+}
+
+#login-failed,#login-noexist{
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  display: none;
+}
+
+#success,#passwd,#passwd2,#user,#error,#error2,#error3{
+  display: none;
+}
+
+footer{
+ 
+  margin: 50px auto 0px auto;
+  text-align: center;
+  color: #ddd;
+  font-weight: bold;
+}
+
+footer p{
+   font-size: 11px !important;  
+}
+
+footer .separator{
+  border-top: 2px ridge #eee;
+  width: 90%;
+  margin: 0 auto 10px auto;
+}
